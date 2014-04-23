@@ -1,0 +1,8 @@
+dependencies:
+  - Ansibles.apt
+  - Ansibles.build-essential
+  - Ansibles.utilities
+  - Ansibles.hostname
+  - Ansibles.timezone
+  - Ansibles.ntp
+  - Ansibles.generic-users
