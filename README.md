@@ -10,5 +10,4 @@ Requirements:
 - https://github.com/Ansibles/apt
 - https://github.com/Ansibles/timezone
 - https://github.com/Ansibles/ntp
-- https://github.com/Ansibles/python
 - https://github.com/Ansibles/hostname
