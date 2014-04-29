@@ -1,0 +1,12 @@
+# Setup common utilities
+utilities_extras:
+    - curl
+    - exuberant-ctags
+    - git-flow
+    - htop
+    - mercurial
+    - python-software-properties
+    - screen
+    - vim
+    - wget
+
