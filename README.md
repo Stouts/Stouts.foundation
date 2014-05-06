@@ -1,7 +1,7 @@
-st.foundation
-=============
+Stouts.foundation
+=================
 
-[![Build Status](https://travis-ci.org/Stouts/st.foundation.png)](https://travis-ci.org/Stouts/st.foundation)
+[![Build Status](https://travis-ci.org/Stouts/Stouts.foundation.png)](https://travis-ci.org/Stouts/Stouts.foundation)
 
 Ansible role which contains the other common roles for setup new debian based machine
 
@@ -38,4 +38,4 @@ Licensed under the MIT License. See the LICENSE file for details.
 
 #### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/Stouts/st.foundation/issues)!
+Are [welcome](https://github.com/Stouts/Stouts.foundation/issues)!

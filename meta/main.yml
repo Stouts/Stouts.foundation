@@ -1,3 +1,5 @@
+---
+
 dependencies:
   - Ansibles.apt
   - Ansibles.build-essential
@@ -6,4 +8,16 @@ dependencies:
   - Ansibles.timezone
   - Ansibles.ntp
   - Ansibles.generic-users
-  - st.locale
+  - Stouts.locale
+
+galaxy_info:
+  author: klen
+  company: Stouts
+  description: Ansible role which contains the other common roles for setup new debian based machine
+  license: MIT
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - system
