@@ -1,7 +1,9 @@
 st.foundation
 =============
 
-Just proxy to some ansibles recipes
+[![Build Status](https://travis-ci.org/Stouts/st.foundation.png)](https://travis-ci.org/Stouts/st.foundation)
+
+Ansible role which contains the other common roles for setup new debian based machine
 
 Requirements:
 
@@ -11,3 +13,29 @@ Requirements:
 - https://github.com/Ansibles/timezone
 - https://github.com/Ansibles/ntp
 - https://github.com/Ansibles/hostname
+- https://github.com/Stouts/st.locale
+
+#### Variables
+
+```yaml
+utilities_extras: # additional packages which be installed
+    - curl
+    - exuberant-ctags
+    - git-flow
+    - htop
+    - mercurial
+    - python-software-properties
+    - screen
+    - vim
+    - wget
+```
+
+Also see documentation for required roles bellow.
+
+#### License
+
+Licensed under the MIT License. See the LICENSE file for details.
+
+#### Feedback, bug-reports, requests, ...
+
+Are [welcome](https://github.com/Stouts/st.foundation/issues)!

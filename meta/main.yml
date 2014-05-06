@@ -6,3 +6,4 @@ dependencies:
   - Ansibles.timezone
   - Ansibles.ntp
   - Ansibles.generic-users
+  - st.locale
