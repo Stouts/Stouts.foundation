@@ -13,7 +13,7 @@ Ansible role which contains the other common roles for setup new debian based ma
 - https://github.com/Ansibles/timezone
 - https://github.com/Ansibles/ntp
 - https://github.com/Ansibles/hostname
-- https://github.com/Stouts/st.locale
+- https://github.com/Stouts/Stouts.locale
 
 #### Variables
 
