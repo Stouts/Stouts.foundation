@@ -9,6 +9,7 @@ dependencies:
   - Ansibles.ntp
   - Ansibles.generic-users
   - Stouts.locale
+  - Stouts.sudo
 
 galaxy_info:
   author: klen

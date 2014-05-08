@@ -15,6 +15,7 @@ Ansible role which contains the other common roles for setup new debian based ma
 - https://github.com/Ansibles/timezone
 - https://github.com/Ansibles/utilities
 - https://github.com/Stouts/Stouts.locale
+- https://github.com/Stouts/Stouts.sudo
 
 '''
 Git submodule add https://github.com/Ansibles/apt deploy/roles/Ansibles.apt
