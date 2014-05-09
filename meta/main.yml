@@ -1,15 +1,14 @@
 ---
 
 dependencies:
-  - Ansibles.apt
-  - Ansibles.build-essential
-  - Ansibles.utilities
-  - Ansibles.timezone
-  - Ansibles.ntp
-  - Ansibles.generic-users
+  - Stouts.apt
   - Stouts.hostname
   - Stouts.locale
   - Stouts.sudo
+  - Ansibles.build-essential
+  - Ansibles.generic-users
+  - Ansibles.ntp
+  - Ansibles.timezone
 
 galaxy_info:
   author: klen
