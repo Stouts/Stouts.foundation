@@ -5,26 +5,31 @@ Stouts.foundation
 
 Ansible role which contains the other common roles for setup new debian based machine
 
-#### Requirements & Dependencies
+#### Installation
+
+    $ ansible-galaxy install Stouts.foundation -p deploy/roles
+
+#### Dependencies
 
 - https://github.com/Ansibles/build-essential
 - https://github.com/Ansibles/generic-users
 - https://github.com/Ansibles/ntp
-- https://github.com/Ansibles/timezone
+- https://github.com/Stouts/timezone
 - https://github.com/Stouts/apt
 - https://github.com/Stouts/hostname
 - https://github.com/Stouts/Stouts.locale
 - https://github.com/Stouts/Stouts.sudo
 
+For manual installation:
 '''
-Git submodule add https://github.com/Ansibles/build-essential deploy/roles/Ansibles.build-essential
-Git submodule add https://github.com/Ansibles/generic-users deploy/roles/Ansibles.generic-users
-Git submodule add https://github.com/Ansibles/ntp deploy/roles/Ansibles.ntp
-Git submodule add https://github.com/Ansibles/timezone deploy/roles/Ansibles.timezone
-Git submodule add https://github.com/Stouts/hostname deploy/roles/Stouts.apt
-Git submodule add https://github.com/Stouts/hostname deploy/roles/Stouts.hostname
-Git submodule add https://github.com/Stouts/Stouts.locale deploy/roles/Stouts.locale
-Git submodule add https://github.com/Stouts/Stouts.sudo deploy/roles/Stouts.sudo
+git submodule add https://github.com/Ansibles/build-essential deploy/roles/Ansibles.build-essential
+git submodule add https://github.com/Ansibles/generic-users deploy/roles/Ansibles.generic-users
+git submodule add https://github.com/Ansibles/ntp deploy/roles/Ansibles.ntp
+git submodule add https://github.com/Stouts/Stouts.timezone deploy/roles/Stouts.timezone
+git submodule add https://github.com/Stouts/Stouts.apt deploy/roles/Stouts.apt
+git submodule add https://github.com/Stouts/Stouts.hostname deploy/roles/Stouts.hostname
+git submodule add https://github.com/Stouts/Stouts.locale deploy/roles/Stouts.locale
+git submodule add https://github.com/Stouts/Stouts.sudo deploy/roles/Stouts.sudo
 '''
 
 Also see documentation for required roles bellow.
