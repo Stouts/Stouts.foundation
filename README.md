@@ -1,7 +1,9 @@
 Stouts.foundation
 =================
 
-[![Build Status](https://travis-ci.org/Stouts/Stouts.foundation.png)](https://travis-ci.org/Stouts/Stouts.foundation)
+[![Build Status](http://img.shields.io/travis/Stouts/Stouts.foundation.svg?style=flat-square)](https://travis-ci.org/Stouts/Stouts.foundation)
+[![Galaxy](http://img.shields.io/badge/galaxy-Stouts.foundation-blue.svg?style=flat-square)](https://galaxy.foundation.com/list#/roles/829)
+[![Tag](http://img.shields.io/github/tag/Stouts/Stouts.foundation.svg?style=flat-square)]()
 
 Ansible role which contains the other common roles for setup new debian based machine
 
