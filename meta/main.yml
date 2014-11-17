@@ -8,7 +8,6 @@ dependencies:
   - Stouts.sudo
   - Stouts.timezone
   - Stouts.users
-  - Ansibles.build-essential
 
 galaxy_info:
   author: klen
